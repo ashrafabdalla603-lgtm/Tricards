@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tri News - AdSelect Investigation</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #f2f4f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.poster {
+  width: min(100%, 430px);
+  aspect-ratio: 9 / 16;
+  background: #06291e;
+  color: #f6f8f4;
+  border-top: 5px solid #35c878;
+  border-radius: 15px;
+  padding: 27px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+}
+
+.brand {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 43px;
+}
+
+.badge {
+  background: #bd821d;
+  color: white;
+  border-radius: 20px;
+  padding: 6px 12px;
+  font-size: 11px;
+  font-weight: bold;
+  width: fit-content;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  font-size: clamp(27px, 7vw, 36px);
+  line-height: 1.15;
+  margin: 0 0 20px;
+}
+
+.article {
+  color: #c3d1ca;
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.article strong {
+  color: white;
+}
+
+.spacer {
+  flex: 1;
+  min-height: 20px;
+}
+
+.footer {
+  border-top: 1px solid #24473a;
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #b7c9bf;
+  font-size: 10px;
+  gap: 8px;
+}
+
+.footer .handle {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+@media (max-width: 350px) {
+  .poster {
+    padding: 20px;
+  }
+  .brand {
+    margin-bottom: 30px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<main class="poster" data-channels="instagram">
+
+  <div class="brand">Tri News</div>
+
+  <div class="badge">Unconfirmed</div>
+
+  <h1>
+    AdSelect reports temporary website maintenance
+  </h1>
+
+  <div class="article">
+    <strong>Update:</strong> AdSelect administrators say
+    the main <strong>adselect.net</strong> domain was
+    temporarily unavailable due to website maintenance.
+
+    <br><br>
+
+    According to communications on AdSelect's Telegram
+    channels, <strong>adselect.org</strong> and
+    <strong>adselect.biz</strong> remained available
+    as alternative access domains.
+
+    <br><br>
+
+    Administrators say existing accounts remain valid,
+    users do not need to register again, and withdrawal
+    arrangements remain unchanged.
+
+    <br><br>
+
+    They have asked users to await the scheduled
+    Thursday, <strong>12 November</strong>, withdrawals.
+
+    <br><br>
+
+    <strong>Important:</strong> These are statements
+    attributed to the administrators. Successful
+    withdrawals have not yet been independently verified.
+
+    <br><br>
+
+    <strong>Takeaway:</strong> A maintenance announcement
+    is not proof of fraud, but neither is it proof of
+    payment reliability. Verify before trusting.
+  </div>
+
+  <div class="spacer"></div>
+
+  <footer class="footer">
+    <span class="handle">@_.trinews</span>
+    <span>A TriBridge Services company</span>
+  </footer>
+
+</main>
+
+</body>
+</html>
